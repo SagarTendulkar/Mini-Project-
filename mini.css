@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NavBar */
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #343a40;
+}
+section img{
+    padding: 8px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 12% 17% 17% 20% 13% 15%;    list-style: none;
+    font-size: 18px;
+    padding: 45px 13px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(200, 209, 194)
+}
+.navbar li:hover{
+    color: rgb(126, 213, 39);
+    cursor: pointer;
+}
+/* Carousel */
+.slides{
+    opacity: 0.8;
+}
+.welcome{
+    position: absolute;
+    bottom: 480px;
+    left: 26%;
+    font-size: 50px;
+}
+.start{
+    position: absolute;
+    bottom: 380px;
+    left: 10%;
+    font-size: 20px;
+}
+.getStarted{
+    position: absolute;
+    bottom: 320px;
+    left: 37%;
+    right: 35%;
+    border: 2px solid rgb(42, 198, 42);
+    border-radius: 20px;
+    padding: 4px 32px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+/* About */
+.about{
+    margin: 50px 80px;
+}
+.about h2{
+    text-align: center;
+    margin: 50px 0 20px 0 ;
+}
+.about p{
+    text-align: center;
+    font-size: 17px;
+}
+.about img{
+    width: 50%;
+    height: 426px;
+}
+.aboutIn{
+    margin: 40px 0;
+}
+.aboutIn img{
+    float: left;
+    margin: 0 15px 0 0;
+}
+.aboutIn p{
+    text-align: left;
+    font-style: italic;
+} 
+.right {
+    float: right;
+}
+.aboutIn p{
+    word-spacing: 4px;
+    line-height: 28px;
+}
+/* Cards */
+.highlight{
+    font-size: 18px;
+    font-weight: 500;
+}
+[alt="cardIcon"]{
+    float: left;
+    padding: 5px 10px 0 0;
+}
+.card-container .card{
+    padding: 14px;
+    margin: 45px 25px;
+    box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 64%);
+
+}
+.card-container{
+    display: flex;
+    background-color: rgb(230, 228, 228);
+    justify-content: center;
+}
+/* Our Services */
+
+.services-container>h2,.services-container>p{
+    text-align: center;
+    margin: 35px 85px;
+}
+.services-card{
+    display: flex;
+    justify-content: center;
+}
+.sBody img,.sBody p{
+    padding: 13px 0;
+}
+[alt="half_circle"]{
+    position: absolute;
+    top: -35px;
+    right: -48px;
+    opacity: 0.6;
+}
+.services-card .card{
+    overflow: hidden;
+    margin: 30px 24px;
+    box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 64%);
+}
+/* Call To Action   */
+.backImg{
+    background-image: url(./img/cta-bg.jpg);
+    text-align: center;
+    color: white;
+    padding: 50px 85px 80px;
+}
+.backImg p{
+    padding: 10px 0;
+}
+.call{
+    border: 2px solid rgb(130, 228, 192);
+    border-radius: 20px;
+    padding: 5px 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    left: 650px;
+}
+/* Explore More */
+.Emore{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 228, 228);
+}
+.Emore .card{
+    margin: 50px 47px;
+    text-align: center;
+}
+.Emore a{
+    border: 2px solid rgb(130, 228, 192);
+    border-radius: 20px;
+    padding: 5px 22px;
+    text-decoration: none;
+    color: black;
+    margin: 50px 0;
+}
+/* Acordian */
+.acord_con img{
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+.acord{
+    padding: 70px 680px 45px 104px;
+}
+.accordion-item,.accordion-button{
+    width: 660px;
+    margin: 5px 0;
+    background-color: rgb(240, 238, 238);
+}
+.Fwords{
+    font-size: 23px;
+    font-weight: 400;
+}
+.acord strong{
+    color: red;
+    padding: 0 8px 0 0;
+}
+button:hover{
+    color: rgb(107, 237, 193);
+}
+/* Portfolio */
+.portfolio_cont{
+    background-color: rgb(230, 228, 228);
+    text-align: center;
+    padding: 40px 85px;
+}
+.aTag{
+    position: relative;
+    border: 0px solid rgb(130, 228, 192);
+    border-radius: 20px;
+    background-color: white;
+    width: max-content;
+    left: 525px;
+    padding: 5px 15px;
+}
+.portfolio_cont p{
+    padding: 10px 0;
+}
+.aTag a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+[alt="portfolio_img"]{
+    margin: 20px 35px;
+}
+/* Our Team */
+.team_cont{
+    text-align: center;
+    padding: 50px 90px;
+}
+.team{
+    display: flex;
+}
+.team img{
+    margin: 30px 17px;
+}
+/* Contact US */
+.contact_cont{
+    background-color: rgb(230, 228, 228);
+    height: 740px;
+}
+.contact_cont>h2{
+    text-align: center;
+    padding: 40px 100px 0;
+}
+.contact_cont>p{
+    text-align: center;
+    padding: 25px 100px ;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    margin: 25px 10px ;
+}
+.formBox{
+    background-color: white;
+}
+[value*="Send"]{
+    padding: 15px;
+    width: fit-content;
+    position: relative;
+    left: 310px ;
+    margin: 20px 0;
+    border-color: aqua;
+    background-color: white;
+    color: aqua;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cBox{
+    border: 0px solid white;
+    text-align: center;
+    padding: 45px 50px;
+    box-shadow: 0px 0px 31px -14px rgb(0 0 0 / 2);
+    background-color: white;
+}
+.cBox h5,.cBox p{
+    padding: 10px 0 0;
+}
+.cBox i {
+    padding: 25px;
+}
+/* Footer */
+footer{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    background-color: #40454b;
+    color: white;
+    padding: 30px 100px;
+}
+footer section{
+    padding: 5px 15px 30px;
+}
+.socialMedia a{
+    padding: 5px 10px;
+}
+.socialMedia a i:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+.links,.fServices{
+    list-style: none;
+}
+.links li:before,.fServices li:before{
+    content: ">";
+    font-size: 23px;
+    padding: 0 10px 0 5px;
+    color: rgb(82, 235, 135);
+}
+.subscribe input{
+    margin: -3px;
+    padding: 8px 20px;
+    border: none;
+}
+[value="Subscribe"]{
+    background-color: rgb(0 255 182);
+    color: white;
+
+}
+footer ul {
+    padding: 20px 15px;
+}
+footer>div{
+    padding: 25px;
+}
+.copyright{
+    text-align: center;
+    background-color: #343a40;
+    padding: 10px;
+    color: white;
+}
+.copyright a{
+    text-decoration: none;
+    color: rgb(82, 235, 135);
+}
+[alt="up"]{
+    position: absolute;
+    right: 20px;
+    top: 419rem;
+    width: 50px;
+}
+  
